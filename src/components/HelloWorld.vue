@@ -4,7 +4,8 @@
     <!--<listen></listen>-->
     <!--<classAndStyle></classAndStyle>-->
     <!--<conditionlRender></conditionlRender>-->
-    <listRender></listRender>
+    <!--<listRender></listRender>-->
+    <evenProcess></evenProcess>
   </div>
 </template>
 
@@ -13,7 +14,8 @@ import grammer from './Grammar.vue'
 import listen from './Listen.vue'
 import classAndStyle from './ClassAndStyle.vue'
 import conditionlRender from './ConditionalRender.vue'
-import listRender from './ListRender.vue'
+// import listRender from './ListRender.vue'
+import evenProcess from './EventProcess.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -21,7 +23,8 @@ export default {
     listen,
     classAndStyle,
     conditionlRender,
-    listRender
+    // listRender,
+    evenProcess
   }
 }
 </script>
