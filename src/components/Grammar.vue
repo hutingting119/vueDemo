@@ -11,20 +11,20 @@
 </template>
 
 <script>
-  export default{
-    data(){
-      return {
-        number: 6,
-        ok: true,
-        message: 'this is grammer message',
-        seen: true,
-        url: "https://www.baidu.com",
-      }
-    },
-    methods: {
-      numberAdd:function () {
-        console.log('hello')
-      }
+export default{
+  data () {
+    return {
+      number: 6,
+      ok: true,
+      message: 'this is grammer message',
+      seen: true,
+      url: 'https://www.baidu.com'
+    }
+  },
+  methods: {
+    numberAdd: function () {
+      console.log('hello')
     }
   }
+}
 </script>
