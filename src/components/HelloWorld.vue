@@ -6,7 +6,8 @@
     <!--<conditionlRender></conditionlRender>-->
     <!--<listRender></listRender>-->
     <!--<evenProcess></evenProcess>-->
-    <formInput></formInput>
+    <!--<formInput></formInput>-->
+    <componentBasis></componentBasis>
   </div>
 </template>
 
@@ -17,7 +18,8 @@ import classAndStyle from './ClassAndStyle.vue'
 import conditionlRender from './ConditionalRender.vue'
 // import listRender from './ListRender.vue'
 import evenProcess from './EventProcess.vue'
-import formInput from './FormInput.vue'
+// import formInput from './FormInput.vue'
+import componentBasis from './ComponentBasis.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -27,7 +29,8 @@ export default {
     conditionlRender,
     // listRender,
     evenProcess,
-    formInput
+    // formInput,
+    componentBasis
   }
 }
 </script>
