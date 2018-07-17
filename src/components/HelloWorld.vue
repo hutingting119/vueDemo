@@ -5,7 +5,8 @@
     <!--<classAndStyle></classAndStyle>-->
     <!--<conditionlRender></conditionlRender>-->
     <!--<listRender></listRender>-->
-    <evenProcess></evenProcess>
+    <!--<evenProcess></evenProcess>-->
+    <formInput></formInput>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import classAndStyle from './ClassAndStyle.vue'
 import conditionlRender from './ConditionalRender.vue'
 // import listRender from './ListRender.vue'
 import evenProcess from './EventProcess.vue'
+import formInput from './FormInput.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -24,7 +26,8 @@ export default {
     classAndStyle,
     conditionlRender,
     // listRender,
-    evenProcess
+    evenProcess,
+    formInput
   }
 }
 </script>
