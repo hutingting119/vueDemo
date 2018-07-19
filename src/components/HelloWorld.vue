@@ -9,7 +9,8 @@
     <!--<formInput></formInput>-->
     <!--<componentBasis></componentBasis>-->
     <!--<propExercise></propExercise>-->
-    <customEvent></customEvent>
+    <!--<customEvent></customEvent>-->
+    <slotDemo></slotDemo>
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import evenProcess from './EventProcess.vue'
 import componentBasis from './ComponentBasis.vue'
 import propExercise from './PropExercise.vue'
 import customEvent from './CustomEvent.vue'
+import slotDemo from './SlotDemo.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -36,7 +38,8 @@ export default {
     // formInput,
     componentBasis,
     propExercise,
-    customEvent
+    customEvent,
+    slotDemo
   }
 }
 </script>
