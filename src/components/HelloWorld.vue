@@ -7,7 +7,9 @@
     <!--<listRender></listRender>-->
     <!--<evenProcess></evenProcess>-->
     <!--<formInput></formInput>-->
-    <componentBasis></componentBasis>
+    <!--<componentBasis></componentBasis>-->
+    <!--<propExercise></propExercise>-->
+    <customEvent></customEvent>
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import conditionlRender from './ConditionalRender.vue'
 import evenProcess from './EventProcess.vue'
 // import formInput from './FormInput.vue'
 import componentBasis from './ComponentBasis.vue'
+import propExercise from './PropExercise.vue'
+import customEvent from './CustomEvent.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -30,7 +34,9 @@ export default {
     // listRender,
     evenProcess,
     // formInput,
-    componentBasis
+    componentBasis,
+    propExercise,
+    customEvent
   }
 }
 </script>
