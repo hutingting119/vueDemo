@@ -10,7 +10,8 @@
     <!--<componentBasis></componentBasis>-->
     <!--<propExercise></propExercise>-->
     <!--<customEvent></customEvent>-->
-    <slotDemo></slotDemo>
+    <!--<slotDemo></slotDemo>-->
+    <dynAsyn></dynAsyn>
   </div>
 </template>
 
@@ -25,7 +26,8 @@ import evenProcess from './EventProcess.vue'
 import componentBasis from './ComponentBasis.vue'
 import propExercise from './PropExercise.vue'
 import customEvent from './CustomEvent.vue'
-import slotDemo from './SlotDemo.vue'
+// import slotDemo from './SlotDemo.vue'
+import dynAsyn from './DynAsyn.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -39,7 +41,8 @@ export default {
     componentBasis,
     propExercise,
     customEvent,
-    slotDemo
+    // slotDemo
+    dynAsyn
   }
 }
 </script>
