@@ -11,7 +11,11 @@
     <!--<propExercise></propExercise>-->
     <!--<customEvent></customEvent>-->
     <!--<slotDemo></slotDemo>-->
-    <dynAsyn></dynAsyn>
+    <!--<dynAsyn></dynAsyn>-->
+    <!--<bouSitua></bouSitua>-->
+    <!--<refParent></refParent>-->
+    <!--<refChild></refChild>-->
+    <comTransition></comTransition>
   </div>
 </template>
 
@@ -28,6 +32,10 @@ import propExercise from './PropExercise.vue'
 import customEvent from './CustomEvent.vue'
 // import slotDemo from './SlotDemo.vue'
 import dynAsyn from './DynAsyn.vue'
+// import bouSitua from './BouSitua.vue'
+import refParent from './ref-parent.vue'
+import refChild from './ref-child.vue'
+import comTransition from './ComTransition.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -42,7 +50,11 @@ export default {
     propExercise,
     customEvent,
     // slotDemo
-    dynAsyn
+    dynAsyn,
+    // bouSitua,
+    refParent,
+    refChild,
+    comTransition
   }
 }
 </script>
