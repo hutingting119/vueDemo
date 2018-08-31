@@ -15,7 +15,10 @@
     <!--<bouSitua></bouSitua>-->
     <!--<refParent></refParent>-->
     <!--<refChild></refChild>-->
-    <comTransition></comTransition>
+    <!--<comTransition></comTransition>-->
+    <!--<cpdf></cpdf>-->
+    <!--<route></route>-->
+    <router-link to="/Cpdf">Go to Bar</router-link>
   </div>
 </template>
 
@@ -36,6 +39,7 @@ import dynAsyn from './DynAsyn.vue'
 import refParent from './ref-parent.vue'
 import refChild from './ref-child.vue'
 import comTransition from './ComTransition.vue'
+import cpdf from './Cpdf.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -54,7 +58,8 @@ export default {
     // bouSitua,
     refParent,
     refChild,
-    comTransition
+    comTransition,
+    cpdf
   }
 }
 </script>

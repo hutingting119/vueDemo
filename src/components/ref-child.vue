@@ -1,11 +1,15 @@
 <template>
-    <div>
-
-    </div>
+  <div id="child">
+    <div>{{str}}</div>
+  </div>
 </template>
 
 <script>
-    export default{
-        props: []
+export default{
+  data () {
+    return {
+      str: 'hello'
     }
+  }
+}
 </script>

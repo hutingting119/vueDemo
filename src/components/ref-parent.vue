@@ -1,11 +1,21 @@
 <template>
-    <div>
-
-    </div>
+  <div>
+    <refChild ref="child"></refChild>
+    <button @click="change">change</button>
+  </div>
 </template>
 
 <script>
-    export default{
-        props: []
+import refChild from './ref-child.vue'
+export default {
+  name: 'HelloWorld',
+  components: {
+    refChild
+  },
+  methods: {
+    change: function () {
+      this.$refs.child.str = 'world'
     }
+  }
+}
 </script>

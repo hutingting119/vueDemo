@@ -1,7 +1,8 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
 <template>
   <div>
-    <button @click="show = !show">toggle</button>
-    <transition name="fade"><p v-if="show">hello</p></transition>
+    <button @click="show1 = !show1">toggle</button>
+    <transition name="fade"><p v-if="show1">hello</p></transition>
   </div>
 </template>
 
@@ -9,7 +10,8 @@
 export default{
   data () {
     return {
-      show: false
+      show1: false,
+      show2: false
     }
   }
 }
